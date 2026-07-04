@@ -1,0 +1,150 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            background-color: #121212;
+            color: #e0e0e0;
+            padding: 50px 20px;
+            margin: 0;
+        }
+        .container {
+            background: #1e1e1e;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+            display: inline-block;
+            max-width: 600px;
+            width: 100%;
+            border: 1px solid #333;
+        }
+        h1 {
+            color: #ffb703;
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            color: #888;
+            margin-bottom: 30px;
+        }
+        .category-selector {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .category-slot {
+            background: #252525;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #333;
+            min-width: 150px;
+        }
+        .category-slot select {
+            background: #1e1e1e;
+            color: #e0e0e0;
+            border: 1px solid #444;
+            padding: 8px;
+            border-radius: 4px;
+            width: 100%;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #252525;
+            padding: 12px 20px;
+            margin: 12px 0;
+            border-radius: 8px;
+            border-left: 4px solid #ffb703;
+            text-align: left;
+        }
+        .label {
+            font-weight: bold;
+            color: #aaa;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            width: 100px;
+        }
+        .value {
+            font-size: 18px;
+            color: #fff;
+            flex-grow: 1;
+            padding-left: 10px;
+        }
+        .reroll-btn {
+            background: none;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            padding: 5px;
+            transition: transform 0.2s;
+        }
+        .reroll-btn:hover {
+            transform: rotate(180deg);
+        }
+        .main-btn {
+            background-color: #ffb703;
+            color: #121212;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 25px;
+            width: 100%;
+            transition: background 0.2s;
+        }
+        .main-btn:hover {
+            background-color: #fb8500;
+        }
+        .save-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 20px;
+            width: 100%;
+            transition: background 0.2s;
+        }
+        .save-btn:hover {
+            background-color: #45a049;
+        }
+        .favorites-section {
+            margin-top: 40px;
+            text-align: left;
+        }
+        .favorites-title {
+            color: #ffb703;
+            font-size: 20px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .favorite-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #252525;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border-radius: 8px;
+            border-left: 4px solid #ffb703;
+        }
+        .favorite-item span {
+            flex-grow: 1;
+            font-size: 16px;
+        }
+        .favorite-btn {
+            background: none;
+            border: none;
+            color: #aaa;
+            cursor: pointer;
+            font-size: 16px;
+            padding: 0 8px;
+            transition: color 0.2s;
+        }
+        .favorite-btn:hover {
+            color: #ffb703;
+        }

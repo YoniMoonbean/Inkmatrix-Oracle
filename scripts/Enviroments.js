@@ -1,4 +1,4 @@
 const environments = [
-  "Forest", "Metropolis", "Alien Planet", "Underwater City",
-  "Desert", "Ancient Castle", "Cyberpunk Alley", "Haunted Mansion"
+  "Forest", "Jungle", "Distant Planet", "Underwater",
+  "Desert", "Ocean", "Lake", "City", "Village", "Underground", "Mountain", "Outer Space"
 ];

@@ -160,7 +160,7 @@
 <body>
 
 <div class="container">
-    <h1>Inkmatrix Oracle 🎨</h1>
+    <h1>Inkmatrix Oracle</h1>
     <p class="subtitle">Randomize all at once or lock in your favorites!</p>
 
     <!-- Category Selector -->
@@ -199,11 +199,11 @@
 
     <!-- Buttons -->
     <button class="save-btn" onclick="saveToFavorites()">Save to Favorites</button>
-    <button class="main-btn" onclick="generateAll()">Randomize All</button>
+    <button class="main-btn" onclick="generateAll()">Randomize</button>
 
     <!-- Favorites Section -->
     <div class="favorites-section">
-        <div class="favorites-title">⭐ Favorites ⭐</div>
+        <div class="favorites-title">Favorites</div>
         <div id="favorites-list"></div>
     </div>
 </div>
@@ -261,7 +261,7 @@ function renderCategoryRows() {
                     <div class="label">${categoryKey.charAt(0).toUpperCase() + categoryKey.slice(1)}</div>
                     <div class="value" id="${valueId}">-</div>
                 </div>
-                <button class="reroll-btn" onclick="generateSingle('${categoryKey}', '${valueId}')" title="Randomize only this category">🔄</button>
+                <button class="reroll-btn" onclick="generateSingle('${categoryKey}', '${valueId}')" title="Randomize only this category">🎲</button>
             `;
             container.appendChild(row);
             categoryElements.push({ key: categoryKey, valueId: valueId });
